@@ -1,0 +1,682 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Duas · Angels · Prophets · Hadith</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #1a237e;
+            --secondary-color: #fbc02d;
+            --background-color: #f5f5f5;
+            --text-color: #333;
+            --light-text-color: #757575;
+            --border-color: #e0e0e0;
+            --card-bg: #fff;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background: var(--primary-color);
+            color: var(--text-color);
+            padding: 20px 0;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: var(--background-color);
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+        }
+        header {
+            margin-bottom: 25px;
+            color: var(--primary-color);
+            text-align: center;
+        }
+        h1 {
+            font-size: 28px;
+            margin: 0 0 5px;
+            font-weight: 700;
+        }
+        p.lead {
+            margin: 0;
+            color: var(--light-text-color);
+            font-size: 15px;
+        }
+
+        .controls {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px 0;
+            align-items: center;
+            justify-content: center;
+        }
+        .search {
+            flex: 1;
+            min-width: 250px;
+            border: 1px solid var(--border-color);
+            padding: 8px 15px;
+            border-radius: 25px;
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            background: var(--card-bg);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+        .search input {
+            flex: 1;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            background: transparent;
+        }
+        .search button {
+            border: none;
+            background: transparent;
+            font-size: 18px;
+            cursor: pointer;
+            color: var(--light-text-color);
+            padding: 0;
+        }
+        .tabs {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+        .tab-btn, select, button {
+            font-family: inherit;
+            background: #e3f2fd;
+            border: 1px solid #bbdefb;
+            padding: 8px 16px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 14px;
+            color: var(--primary-color);
+            transition: all 0.3s ease;
+        }
+        .tab-btn:hover, select:hover, button:hover {
+            background: #bbdefb;
+        }
+        .tab-btn.active {
+            background: var(--primary-color);
+            color: #fff;
+            border-color: var(--primary-color);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        select, button {
+            background: var(--card-bg);
+        }
+
+        /* List view */
+        .list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .list-item {
+            padding: 15px;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            background: var(--card-bg);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+            transition: transform 0.2s ease;
+        }
+        .list-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .list-item h3 {
+            margin: 0 0 8px;
+            font-size: 18px;
+            font-weight: 500;
+        }
+        .list-item .arabic {
+            font-size: 24px;
+            font-weight: 700;
+            direction: rtl;
+            margin-bottom: 10px;
+            font-family: 'Amiri', serif;
+            color: var(--primary-color);
+        }
+        .list-item .latin {
+            font-size: 14px;
+            color: var(--light-text-color);
+            margin-bottom: 5px;
+        }
+        .list-item .translation {
+            font-size: 15px;
+            color: var(--text-color);
+            margin-bottom: 5px;
+        }
+        .list-item .meta {
+            font-size: 13px;
+            color: var(--light-text-color);
+            border-top: 1px dashed var(--border-color);
+            padding-top: 8px;
+            margin-top: 8px;
+        }
+
+        h2 {
+            margin: 30px 0 15px;
+            font-size: 20px;
+            color: var(--primary-color);
+            font-weight: 700;
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 5px;
+        }
+        .category-nav {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-bottom: 15px;
+        }
+        .category-nav button {
+            font-size: 13px;
+            padding: 6px 12px;
+            border-radius: 20px;
+            background: #e1f5fe;
+            border-color: #b3e5fc;
+        }
+        .no-results {
+            padding: 20px;
+            background: var(--card-bg);
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            color: var(--light-text-color);
+            margin-top: 15px;
+            text-align: center;
+        }
+        .counts {
+            font-size: 14px;
+            color: var(--light-text-color);
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        footer {
+            margin-top: 40px;
+            font-size: 12px;
+            color: var(--light-text-color);
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            .controls {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            .search {
+                min-width: unset;
+                flex: none;
+            }
+            .tabs, .category-nav {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>Duas · Angels · Prophets · Hadith</h1>
+        <p class="lead">Browse powerful duas, dhikr, and hadith collections to enrich your life.</p>
+    </header>
+
+    <div class="controls">
+        <div class="search">
+            <input id="search" placeholder="Search..." />
+            <button id="clearSearch">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+        <div class="tabs" id="tabs"></div>
+        <select id="duaCategory" style="display:none"></select>
+        <button id="reload">Reload</button>
+    </div>
+
+    <div id="counts" class="counts"></div>
+
+    <main id="main">
+        <div id="loadingIndicator" style="display:none; text-align:center; padding: 20px;">
+            Loading...
+        </div>
+    </main>
+
+    <div id="noResults" style="display:none" class="no-results">
+        <p>No matches found. Try a different search or category.</p>
+    </div>
+
+    <footer>
+        <p>© Ummatifoundation. All rights reserved.</p>
+    </footer>
+</div>
+
+<script>
+    const DATASETS = [
+        {
+            key: "duas",
+            label: "Duas",
+            file: "https://raw.githubusercontent.com/ummatifoundationin/static-data/main/data/hadith_dua/alldua's.json",
+            process: raw => {
+                let combined = [];
+                for (const [key, arr] of Object.entries(raw.daily_remembrance)) {
+                    if (Array.isArray(arr)) {
+                        arr.forEach(d => combined.push({ ...d, category: key }));
+                    }
+                }
+                return combined;
+            }
+        },
+        {
+            key: "angels",
+            label: "Angels",
+            file: "https://raw.githubusercontent.com/ummatifoundationin/static-data/main/data/hadith_dua/angelnames.json"
+        },
+        {
+            key: "prophets",
+            label: "Prophets",
+            file: "https://raw.githubusercontent.com/ummatifoundationin/static-data/main/data/hadith_dua/prophets_name.json"
+        },
+        {
+            key: "names_of_allah",
+            label: "Names of Allah",
+            file: "https://raw.githubusercontent.com/ummatifoundationin/static-data/main/data/hadith_dua/names-of-allah.json"
+        },
+        {
+            key: "hadith_nawawi",
+            label: "Hadith Nawawi",
+            file: "https://raw.githubusercontent.com/ummatifoundationin/static-data/main/data/hadith_dua/hadith_nawawi40.json",
+            process: raw => raw.hadiths || []
+        },
+        {
+            key: "hadith_qudsi",
+            label: "Hadith Qudsi",
+            file: "https://raw.githubusercontent.com/ummatifoundationin/static-data/main/data/hadith_dua/hadith_qudsi40.json",
+            process: raw => raw.hadiths || []
+        },
+        {
+            key: "hadith_shahwaliullah",
+            label: "Hadith Shah Waliullah",
+            file: "https://raw.githubusercontent.com/ummatifoundationin/static-data/main/data/hadith_dua/hadith_shahwaliullah40.json",
+            process: raw => raw.hadiths || []
+        },
+        {
+            key: "bukhari",
+            label: "Sahih al-Bukhari",
+            file: "https://raw.githubusercontent.com/ummatifoundationin/static-data/main/data/hadith_dua/bukhari.json",
+            process: raw => raw
+        }
+    ];
+    let data = {};
+    let currentTab = DATASETS[0].key;
+    let currentBukhariChapter = null;
+
+    const searchInput = document.getElementById('search');
+    const clearSearch = document.getElementById('clearSearch');
+    const countsEl = document.getElementById('counts');
+    const categorySelect = document.getElementById('duaCategory');
+    const tabsEl = document.getElementById('tabs');
+    const mainEl = document.getElementById('main');
+    const loadingIndicator = document.getElementById('loadingIndicator');
+
+    DATASETS.forEach((ds, i) => {
+        const btn = document.createElement('button');
+        btn.className = "tab-btn" + (i === 0 ? " active" : "");
+        btn.dataset.tab = ds.key;
+        btn.textContent = ds.label;
+        tabsEl.appendChild(btn);
+
+        const section = document.createElement('section');
+        section.id = ds.key;
+        section.className = "tab-panel";
+        if (i > 0) section.style.display = "none";
+        section.innerHTML = `<div id="${ds.key}-container"></div>`;
+        if (ds.key === "duas") section.innerHTML = `<div id="categoryNav" class="category-nav"></div><div id="${ds.key}-container"></div>`;
+        mainEl.appendChild(section);
+    });
+
+    async function fetchJson(path) {
+        const r = await fetch(path + "?v=" + Date.now());
+        if (!r.ok) {
+            throw new Error(`HTTP error! status: ${r.status}`);
+        }
+        return r.json();
+    }
+
+    async function loadAll() {
+        loadingIndicator.style.display = 'block';
+        
+        const fetchPromises = DATASETS.map(ds => {
+            return fetchJson(ds.file)
+                .then(raw => {
+                    let processed = ds.process ? ds.process(raw) : raw;
+                    data[ds.key] = processed;
+                })
+                .catch(e => {
+                    console.error("Failed to load", ds.file, e);
+                    data[ds.key] = [];
+                });
+        });
+
+        await Promise.all(fetchPromises);
+        loadingIndicator.style.display = 'none';
+
+        if (data.duas) {
+            const categories = [...new Set(data.duas.map(d => d.category || "Other"))];
+            categorySelect.style.display = "inline-block";
+            categorySelect.innerHTML = '<option value="all">All Categories</option>';
+            categories.forEach(cat => {
+                const opt = document.createElement('option');
+                opt.value = cat;
+                opt.textContent = cat;
+                categorySelect.appendChild(opt);
+            });
+        } else {
+            categorySelect.style.display = "none";
+        }
+
+        countsEl.textContent = DATASETS.map(ds => `${(data[ds.key] || []).length} ${ds.label}`).join(" · ");
+        render();
+    }
+
+    function createDuaItem(d) {
+        const li = document.createElement('div');
+        li.className = "list-item";
+        const h = document.createElement('h3');
+        h.textContent = d.title || "Dua";
+        li.appendChild(h);
+        if (d.arabic) {
+            const a = document.createElement('div');
+            a.className = "arabic";
+            a.textContent = d.arabic;
+            li.appendChild(a);
+        }
+        if (d.latin) {
+            const l = document.createElement('div');
+            l.className = "latin";
+            l.textContent = d.latin;
+            li.appendChild(l);
+        }
+        if (d.translation) {
+            const t = document.createElement('div');
+            t.className = "translation";
+            t.textContent = d.translation;
+            li.appendChild(t);
+        }
+        const meta = document.createElement('div');
+        meta.className = "meta";
+        meta.textContent = d.source ? `Source: ${d.source}` : `Category: ${d.category}`;
+        li.appendChild(meta);
+        return li;
+    }
+
+    function createSimpleItem(obj) {
+        const currentTab = document.querySelector('.tab-btn.active').dataset.tab;
+        const li = document.createElement('div');
+        li.className = "list-item";
+
+        if (currentTab === "angels") {
+            const title = document.createElement('h3');
+            title.textContent = obj.transliteration || '';
+            li.appendChild(title);
+            if (obj.arabic) {
+                const arabic = document.createElement('div');
+                arabic.className = "arabic";
+                arabic.textContent = obj.arabic;
+                li.appendChild(arabic);
+            }
+            if (obj.english) {
+                const english = document.createElement('div');
+                english.className = "translation";
+                english.textContent = obj.english;
+                li.appendChild(english);
+            }
+        } else if (currentTab === "names_of_allah") {
+            const title = document.createElement('h3');
+            title.textContent = `${obj.number}. ${obj.name}`;
+            li.appendChild(title);
+            if (obj.transliteration) {
+                const transliteration = document.createElement('div');
+                transliteration.className = "latin";
+                transliteration.textContent = obj.transliteration;
+                li.appendChild(transliteration);
+            }
+            if (obj.meaning) {
+                const meaning = document.createElement('div');
+                meaning.className = "translation";
+                meaning.textContent = obj.meaning;
+                li.appendChild(meaning);
+            }
+        } else if (currentTab.startsWith("hadith")) {
+            const h = document.createElement('h3');
+            h.textContent = obj.title || obj.transliteration || '';
+            li.appendChild(h);
+            if (obj.arabic) {
+                const a = document.createElement('div');
+                a.className = "arabic";
+                a.textContent = obj.arabic;
+                li.appendChild(a);
+            }
+            if (obj.english && obj.english.narrator) {
+                const narrator = document.createElement('div');
+                narrator.className = "translation";
+                narrator.textContent = `Narrated: ${obj.english.narrator}`;
+                li.appendChild(narrator);
+            }
+            if (obj.english && obj.english.text) {
+                const t = document.createElement('div');
+                t.className = "translation";
+                t.textContent = obj.english.text;
+                li.appendChild(t);
+            }
+        } else if (currentTab === "prophets") {
+            const title = document.createElement('h3');
+            title.textContent = obj.transliteration || '';
+            li.appendChild(title);
+            if (obj.arabic) {
+                const arabic = document.createElement('div');
+                arabic.className = "arabic";
+                arabic.textContent = obj.arabic;
+                li.appendChild(arabic);
+            }
+            if (obj.english) {
+                const english = document.createElement('div');
+                english.className = "translation";
+                english.textContent = obj.english;
+                li.appendChild(english);
+            }
+        }
+        return li;
+    }
+
+    function createHadithItem(hadith) {
+        const li = document.createElement('div');
+        li.className = "list-item";
+        const h = document.createElement('h3');
+        h.textContent = `Hadith #${hadith.idInBook}`;
+        li.appendChild(h);
+
+        if (hadith.arabic) {
+            const a = document.createElement('div');
+            a.className = "arabic";
+            a.textContent = hadith.arabic;
+            li.appendChild(a);
+        }
+
+        if (hadith.english) {
+            if (hadith.english.narrator) {
+                const narrator = document.createElement('div');
+                narrator.className = "translation";
+                narrator.textContent = `Narrated: ${hadith.english.narrator}`;
+                li.appendChild(narrator);
+            }
+            if (hadith.english.text) {
+                const text = document.createElement('div');
+                text.className = "translation";
+                text.textContent = hadith.english.text;
+                li.appendChild(text);
+            }
+        }
+        return li;
+    }
+
+    function createChapterItem(chapter) {
+        const li = document.createElement('div');
+        li.className = "list-item";
+        li.style.cursor = "pointer";
+        li.dataset.chapterId = chapter.id;
+        const h = document.createElement('h3');
+        h.textContent = `Chapter ${chapter.id}: ${chapter.english}`;
+        li.appendChild(h);
+
+        li.addEventListener('click', () => {
+            currentBukhariChapter = chapter.id;
+            renderBukhariHadiths();
+        });
+        return li;
+    }
+    
+    function renderBukhariHadiths() {
+        const container = document.getElementById("bukhari-container");
+        container.innerHTML = '';
+        
+        const backBtn = document.createElement('button');
+        backBtn.textContent = '← Back to Chapters';
+        backBtn.onclick = () => {
+            currentBukhariChapter = null;
+            render();
+        };
+        container.appendChild(backBtn);
+
+        const hadiths = (data.bukhari.hadiths || []).filter(h => h.chapterId === currentBukhariChapter);
+        
+        const wrapper = document.createElement('div');
+        wrapper.className = "list";
+        hadiths.forEach(h => wrapper.appendChild(createHadithItem(h)));
+        container.appendChild(wrapper);
+    }
+
+    function render() {
+        const q = searchInput.value.trim().toLowerCase();
+        const selectedCat = categorySelect.value;
+        let hasResultsInActiveTab = false;
+
+        DATASETS.forEach(ds => {
+            const container = document.getElementById(`${ds.key}-container`);
+            if (!container) return;
+            
+            // Check if search query is active
+            if (q) {
+                container.innerHTML = '';
+                let items = (ds.key === "bukhari" && data.bukhari && data.bukhari.hadiths) ? data.bukhari.hadiths : (data[ds.key] || []);
+                items = items.filter(x => JSON.stringify(x).toLowerCase().includes(q));
+
+                if (ds.key === "duas") {
+                    const wrapper = document.createElement('div');
+                    wrapper.className = "list";
+                    items.forEach(d => wrapper.appendChild(createDuaItem(d)));
+                    container.appendChild(wrapper);
+                } else if (ds.key === "bukhari") {
+                    const wrapper = document.createElement('div');
+                    wrapper.className = "list";
+                    items.forEach(h => wrapper.appendChild(createHadithItem(h)));
+                    container.appendChild(wrapper);
+                } else {
+                    const wrapper = document.createElement('div');
+                    wrapper.className = "list";
+                    items.forEach(x => wrapper.appendChild(createSimpleItem(x)));
+                    container.appendChild(wrapper);
+                }
+
+                if (ds.key === currentTab && items.length > 0) {
+                    hasResultsInActiveTab = true;
+                }
+            } else { // No search query, render normally
+                container.innerHTML = '';
+                if (ds.key === "duas") {
+                    let items = data.duas || [];
+                    if (selectedCat !== "all") {
+                        items = items.filter(d => (d.category || "Other") === selectedCat);
+                    }
+                    const groups = {};
+                    items.forEach(d => (groups[d.category] = groups[d.category] || []).push(d));
+                    const categoryNav = document.getElementById('categoryNav');
+                    categoryNav.innerHTML = '';
+                    const sortedCategories = Object.keys(groups).sort();
+                    sortedCategories.forEach(cat => {
+                        const btn = document.createElement('button');
+                        btn.textContent = `${cat} (${groups[cat].length})`;
+                        btn.onclick = () => document.getElementById(`cat-${cat.replace(/\s+/g, '-')}`).scrollIntoView({ behavior: 'smooth' });
+                        categoryNav.appendChild(btn);
+                    });
+                    sortedCategories.forEach(cat => {
+                        const h2 = document.createElement('h2');
+                        h2.textContent = `${cat}`;
+                        h2.id = `cat-${cat.replace(/\s+/g, '-')}`;
+                        container.appendChild(h2);
+                        const wrapper = document.createElement('div');
+                        wrapper.className = "list";
+                        groups[cat].forEach(d => wrapper.appendChild(createDuaItem(d)));
+                        container.appendChild(wrapper);
+                    });
+                    if (ds.key === currentTab && items.length > 0) hasResultsInActiveTab = true;
+                } else if (ds.key === "bukhari") {
+                    if (currentBukhariChapter) {
+                        renderBukhariHadiths();
+                    } else {
+                        const items = (data.bukhari.chapters || []);
+                        const wrapper = document.createElement('div');
+                        wrapper.className = "list";
+                        items.forEach(x => wrapper.appendChild(createChapterItem(x)));
+                        container.appendChild(wrapper);
+                    }
+                    if (ds.key === currentTab && data.bukhari && data.bukhari.chapters.length > 0) hasResultsInActiveTab = true;
+                } else {
+                    const items = (data[ds.key] || []);
+                    const wrapper = document.createElement('div');
+                    wrapper.className = "list";
+                    items.forEach(x => wrapper.appendChild(createSimpleItem(x)));
+                    container.appendChild(wrapper);
+                    if (ds.key === currentTab && items.length > 0) hasResultsInActiveTab = true;
+                }
+            }
+        });
+
+        document.getElementById('noResults').style.display =
+            hasResultsInActiveTab ? 'none' : 'block';
+    }
+
+    document.addEventListener('click', e => {
+        if (e.target.classList.contains('tab-btn')) {
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            e.target.classList.add('active');
+            currentTab = e.target.dataset.tab;
+            currentBukhariChapter = null; // Reset chapter when changing tabs
+            document.querySelectorAll('.tab-panel').forEach(tp => tp.style.display = 'none');
+            document.getElementById(currentTab).style.display = 'block';
+            render();
+        }
+    });
+
+    searchInput.oninput = () => render();
+    clearSearch.onclick = () => {
+        searchInput.value = '';
+        render();
+    };
+    categorySelect.onchange = () => render();
+    document.getElementById('reload').onclick = () => loadAll();
+
+    loadAll();
+</script>
+</body>
+</html>
