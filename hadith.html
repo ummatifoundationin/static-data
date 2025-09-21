@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -355,7 +355,7 @@
 
     async function loadAll() {
         loadingIndicator.style.display = 'block';
-        
+        
         const fetchPromises = DATASETS.map(ds => {
             return fetchJson(ds.file)
                 .then(raw => {
@@ -542,11 +542,11 @@
         });
         return li;
     }
-    
+    
     function renderBukhariHadiths() {
         const container = document.getElementById("bukhari-container");
         container.innerHTML = '';
-        
+        
         const backBtn = document.createElement('button');
         backBtn.textContent = '← Back to Chapters';
         backBtn.onclick = () => {
@@ -556,7 +556,7 @@
         container.appendChild(backBtn);
 
         const hadiths = (data.bukhari.hadiths || []).filter(h => h.chapterId === currentBukhariChapter);
-        
+        
         const wrapper = document.createElement('div');
         wrapper.className = "list";
         hadiths.forEach(h => wrapper.appendChild(createHadithItem(h)));
@@ -571,7 +571,7 @@
         DATASETS.forEach(ds => {
             const container = document.getElementById(`${ds.key}-container`);
             if (!container) return;
-            
+            
             // Check if search query is active
             if (q) {
                 container.innerHTML = '';
