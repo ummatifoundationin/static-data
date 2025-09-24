@@ -1,0 +1,26 @@
+[
+    {
+        "title": "App Feature",
+        "message": "Ummati app is all in one for your Islamic Needs!",
+        "timestamp": "2025-09-24T10:03:25.000Z",
+        "isImportant": true
+    },
+    {
+        "title": "Important Reminder",
+        "message": "Do not skip your prayers, they are the foundation of your faith.",
+        "timestamp": "2025-09-24T09:03:25.000Z",
+        "isImportant": false
+    },
+    {
+        "title": "Did You Know?",
+        "message": "You can pray Qada (make up missed prayers) if you missed them on time.",
+        "timestamp": "2025-09-23T10:03:25.000Z",
+        "isImportant": false
+    },
+    {
+        "title": "A Gentle Reminder",
+        "message": "Witr prayer is also important, as important as the Fard (obligatory) prayers.",
+        "timestamp": "2025-09-22T10:03:25.000Z",
+        "isImportant": true
+    }
+]
