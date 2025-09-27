@@ -5,8 +5,8 @@
 		"details":
 		[
 			{
-				"lang": "ms",
-				"text": "Menyampaikan wahyu Allah"
+				"lang": "ur",
+				"text": "اللہ کا پیغام (وحی) انبیاء تک پہنچانا"
 			},
 			{
 				"lang": "en",
@@ -20,8 +20,8 @@
 		"details":
 		[
 			{
-				"lang": "ms",
-				"text": "Meniup sangkakala apabila diperintahkan Allah "
+				"lang": "ur",
+				"text": "اللہ کے حکم پر صور پھونکنا"
 			},
 			{
 				"lang": "en",
@@ -35,8 +35,8 @@
 		"details":
 		[
 			{
-				"lang": "ms",
-				"text": "Menyampaikan/membawa rezeki yang ditentukan Allah"
+				"lang": "ur",
+				"text": "اللہ کی طرف سے مقرر کردہ رزق پہنچانا"
 			},
 			{
 				"lang": "en",
@@ -50,8 +50,8 @@
 		"details":
 		[
 			{
-				"lang": "ms",
-				"text": "Mencabut nyawa"
+				"lang": "ur",
+				"text": "روح قبض کرنا (جان نکالنا)"
 			},
 			{
 				"lang": "en",
@@ -65,8 +65,8 @@
 		"details":
 		[
 			{
-				"lang": "ms",
-				"text": "Mencatat segala amalan baik dan buruk manusia"
+				"lang": "ur",
+				"text": "انسانوں کے تمام اچھے اور برے اعمال ریکارڈ کرنا"
 			},
 			{
 				"lang": "en",
@@ -80,8 +80,8 @@
 		"details":
 		[
 			{
-				"lang": "ms",
-				"text": "Menyoal si mati di dalam kubur"
+				"lang": "ur",
+				"text": "قبر میں میت سے سوالات کرنا"
 			},
 			{
 				"lang": "en",
@@ -95,8 +95,8 @@
 		"details":
 		[
 			{
-				"lang": "ms",
-				"text": "Menyoal si mati di dalam kubur"
+				"lang": "ur",
+				"text": "قبر میں میت سے سوالات کرنا"
 			},
 			{
 				"lang": "en",
@@ -110,8 +110,8 @@
 		"details":
 		[
 			{
-				"lang": "ms",
-				"text": "Menjaga pintu syurga dan menyambut ahli syurga"
+				"lang": "ur",
+				"text": "جنت کے دروازوں کی حفاظت کرنا اور جنتیوں کا استقبال کرنا"
 			},
 			{
 				"lang": "en",
@@ -125,14 +125,28 @@
 		"details":
 		[
 			{
-				"lang": "ms",
-				"text": "Menjaga pintu neraka dan menyambut ahli neraka"
+				"lang": "ur",
+				"text": "جہنم کے دروازوں کی حفاظت کرنا اور جہنمیوں کا استقبال کرنا"
 			},
 			{
 				"lang": "en",
 				"text": "Chief of the angels who govern hell"
 			}
 		]
+	},
+	{
+		"arabic": "حملة العرش",
+		"transliteration": "Hamalat al-'Arsh",
+		"details":
+		[
+			{
+				"lang": "ur",
+				"text": "عرشِ الٰہی کو اٹھانے والے فرشتے"
+			},
+			{
+				"lang": "en",
+				"text": "The angels who bear the Throne of Allah"
+			}
+		]
 	}
 ]
-
