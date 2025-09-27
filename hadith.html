@@ -286,22 +286,51 @@
                 li.appendChild(t);
             }
         } else if (currentTab === "prophets") {
-            const title = document.createElement('h3');
-            title.textContent = obj.transliteration || '';
-            li.appendChild(title);
-            if (obj.arabic) {
-                const arabic = document.createElement('div');
-                arabic.className = "arabic";
-                arabic.textContent = obj.arabic;
-                li.appendChild(arabic);
-            }
-            if (obj.english) {
-                const english = document.createElement('div');
-                english.className = "translation";
-                english.textContent = obj.english;
-                li.appendChild(english);
-            }
-        }
+            // --- START OF MODIFICATIONS FOR PROPHETS TAB ---
+            
+            // 1. Display Transliterated Name
+            const title = document.createElement('h3');
+            title.textContent = obj.transliteration || '';
+            li.appendChild(title);
+            
+            // 2. Display Arabic Name
+            if (obj.arabic) {
+                const arabic = document.createElement('div');
+                arabic.className = "arabic";
+                arabic.textContent = obj.arabic;
+                li.appendChild(arabic);
+            }
+
+            // 3. Display Urdu Name
+            if (obj.urdu) {
+                const urduName = document.createElement('div');
+                urduName.className = "translation";
+                // Use Amiri font for proper Urdu/Arabic script rendering
+                urduName.style.fontFamily = 'Amiri, serif';
+                urduName.textContent = `(${obj.urdu})`;
+                li.appendChild(urduName);
+            }
+            
+            // 4. Display English Introduction
+            if (obj.english_intro) {
+                const englishIntro = document.createElement('div');
+                englishIntro.className = "translation";
+                englishIntro.textContent = `Introduction (English): ${obj.english_intro}`;
+                li.appendChild(englishIntro);
+            }
+
+            // 5. Display Urdu Introduction
+            if (obj.urdu_intro) {
+                const urduIntro = document.createElement('div');
+                urduIntro.className = "translation";
+                // Use Amiri font for proper Urdu/Arabic script rendering
+                urduIntro.style.fontFamily = 'Amiri, serif';
+                urduIntro.textContent = `تعارف (اردو): ${obj.urdu_intro}`;
+                li.appendChild(urduIntro);
+            }
+                        // --- END OF MODIFICATIONS FOR PROPHETS TAB ---
+
+        }
         return li;
     }
 
