@@ -210,21 +210,43 @@
         li.className = "list-item";
 
         if (currentTab === "angels") {
+            // --- START OF MODIFICATIONS FOR ANGELS TAB ---
+
+            // Extract English and Urdu duty details
+            const urduDetail = obj.details ? obj.details.find(d => d.lang === 'ur') : null;
+            const englishDetail = obj.details ? obj.details.find(d => d.lang === 'en') : null;
+
+            // 1. Display Transliterated Name (e.g., Jibril)
             const title = document.createElement('h3');
             title.textContent = obj.transliteration || '';
             li.appendChild(title);
+
+            // 2. Display Arabic Name (The one used in the Quran/Sunnah)
             if (obj.arabic) {
                 const arabic = document.createElement('div');
                 arabic.className = "arabic";
                 arabic.textContent = obj.arabic;
                 li.appendChild(arabic);
             }
-            if (obj.english) {
+
+            // 3. Display English Duty
+            if (englishDetail && englishDetail.text) {
                 const english = document.createElement('div');
-                english.className = "translation";
-                english.textContent = obj.english;
+                english.className = "translation english-duty"; // Added class for specific styling
+                english.textContent = `Duty (English): ${englishDetail.text}`;
                 li.appendChild(english);
             }
+            
+            // 4. Display Urdu Duty
+            if (urduDetail && urduDetail.text) {
+                const urdu = document.createElement('div');
+                urdu.className = "translation urdu-duty"; // Added class for specific styling
+                // We'll use the 'Amiri' font for the Urdu text since it's an Arabic script
+                urdu.style.fontFamily = 'Amiri, serif'; 
+                urdu.textContent = `(اردو): ${urduDetail.text}`; 
+                li.appendChild(urdu);
+            }
+            
         } else if (currentTab === "names_of_allah") {
             const title = document.createElement('h3');
             title.textContent = `${obj.number}. ${obj.name}`;
