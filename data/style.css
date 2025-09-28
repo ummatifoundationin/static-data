@@ -210,3 +210,16 @@ footer {
         justify-content: center;
     }
 }
+/* --- New Rule for Scrollable Main Content --- */
+#main {
+    /* Set a fixed maximum height. The value depends on your screen/layout,
+       but 'vh' (viewport height) is a good relative measure. */
+    max-height: 550px; /* Example fixed height. Adjust as needed. */
+    
+    /* Alternatively, use calc() to fill the remaining screen space: */
+    /* max-height: calc(100vh - 280px); /* 100vh - (Header + Controls + Footer + Margins) */
+    
+    overflow-y: auto; /* Enable vertical scrolling when content exceeds max-height */
+    padding-right: 10px; /* Add slight padding on the right to separate content from scrollbar */
+}
+/* ------------------------------------------- */
