@@ -1,0 +1,284 @@
+{
+  "compendium_title": "45 Core Sayings and Edicts of Ala Hazrat Imam Ahmad Raza Khan",
+  "compiler_framework": "Fatawa Razawiyya and Wasaaya Shareef Extract",
+  "categories": {
+    "namaz_and_ibadah": [
+      {
+        "id": "NZ-01",
+        "topic": "The Worth of Deeds Without Namaz",
+        "saying": "If a person does not pray Namaz, all their other voluntary good deeds and charity hold no real spiritual luster.",
+        "core_lesson": "Obligatory prayers (Fard) are the bedrock of all accepted worship."
+      },
+      {
+        "id": "NZ-02",
+        "topic": "Concentration in Prayer",
+        "saying": "While praying, imagine you are standing directly before the Master of universes, and keep your gaze strictly on the place of prostration.",
+        "core_lesson": "True concentration (Khushu) brings spiritual elevation."
+      },
+      {
+        "id": "NZ-03",
+        "topic": "Congregational Attendance",
+        "saying": "To leave the congregational prayer (Jama'at) without a valid Islamic legal excuse is a severe deprivation of immense rewards.",
+        "core_lesson": "Community prayer holds 27 times more spiritual merit."
+      },
+      {
+        "id": "NZ-04",
+        "topic": "Completing Overdue Prayers",
+        "saying": "Fulfilling your missed lifelong obligatory prayers (Qada) must take absolute priority over reciting voluntary Nafl prayers.",
+        "core_lesson": "Debts of Allah must be paid before presenting voluntary gifts."
+      },
+      {
+        "id": "NZ-05",
+        "topic": "Punctuality of Timings",
+        "saying": "Delaying Namaz deliberately until its designated time is almost over is an act that invites the displeasure of the Almighty.",
+        "core_lesson": "Perform every prayer strictly within its preferred (Mustahabb) window."
+      },
+      {
+        "id": "NZ-06",
+        "topic": "Sincerity in Niyyah",
+        "saying": "Your heart must be fully present when making the intention for Namaz; verbal utterances are merely a support for the mind.",
+        "core_lesson": "The place of intention is fundamentally inside the heart."
+      },
+      {
+        "id": "NZ-07",
+        "topic": "Respect for the Mosque",
+        "saying": "A mosque is a house of Allah; talking about mundane worldly businesses or gossiping inside it burns away good deeds like fire burns wood.",
+        "core_lesson": "Maintain the highest standards of etiquette inside sacred spaces."
+      },
+      {
+        "id": "NZ-08",
+        "topic": "The Perfection of Wudu",
+        "saying": "Perform your ablution with absolute care, ensuring not a single hair-breadth of space remains dry, for a flawless Wudu is the key to Namaz.",
+        "core_lesson": "Physical purification directly impacts internal spiritual readiness."
+      },
+      {
+        "id": "NZ-09",
+        "topic": "Friday Congregation (Jummah)",
+        "saying": "The Friday prayer is a profound blessing for the Ummah; missing it intentionally hardens the heart and creates spiritual negligence.",
+        "core_lesson": "Jummah is a foundational weekly pillar of Islamic unity."
+      },
+      {
+        "id": "NZ-10",
+        "topic": "Women praying at Home",
+        "saying": "For a woman, performing her daily prayers within the safety and privacy of her home brings greater spiritual reward than attending public congregations.",
+        "core_lesson": "Modesty and privacy enhance the internal value of female devotion."
+      },
+      {
+        "id": "NZ-11",
+        "topic": "The Final Prostration",
+        "saying": "A servant is closest to their Creator during the state of Sajdah; pour your soul out in humility during this moment.",
+        "core_lesson": "Sajdah represents the ultimate peak of human humility."
+      }
+    ],
+    "holy_quran_reverence": [
+      {
+        "id": "QR-01",
+        "topic": "Touching the Script",
+        "saying": "Never touch the physical text of the Holy Quran without a complete state of ritual purity (Wudu), as the Quran demands the highest form of respect.",
+        "core_lesson": "Absolute purity is non-negotiable for touching holy script."
+      },
+      {
+        "id": "QR-02",
+        "topic": "Listening Attentively",
+        "saying": "When the Divine Words are being recited out loud in a dedicated gathering, it is individually binding upon everyone present to remain silent and listen.",
+        "core_lesson": "Listening to the Quran with focus is a direct source of mercy."
+      },
+      {
+        "id": "QR-03",
+        "topic": "Tajweed and Pronunciation",
+        "saying": "Beautify your recitation by learning correct Tajweed, because mispronouncing letters so badly that it changes the meaning can ruin the validity of your Namaz.",
+        "core_lesson": "Accurate phonetic execution of Arabic letters is mandatory."
+      },
+      {
+        "id": "QR-04",
+        "topic": "Daily Recitation Routine",
+        "saying": "Do not let a single day pass without opening the Book of Allah, even if it is only to recite a few verses with translation.",
+        "core_lesson": "Consistency in recitation illuminates the household."
+      },
+      {
+        "id": "QR-05",
+        "topic": "Acting Upon the Guidance",
+        "saying": "Reading the Quran is a source of reward, but the true objective is to shape your daily character according to its commands and prohibitions.",
+        "core_lesson": "Knowledge without practical application holds no spiritual weight."
+      },
+      {
+        "id": "QR-06",
+        "topic": "Respecting the Material Book",
+        "saying": "Never place any other book, object, or keys on top of the Holy Quran; it must always occupy the highest physical position on a shelf.",
+        "core_lesson": "Physical etiquette reflects deep internal reverence."
+      },
+      {
+        "id": "QR-07",
+        "topic": "Recitation for the Sick",
+        "saying": "The Holy Quran is a literal cure (Shifa) for both spiritual diseases of the heart and physical illnesses of the body.",
+        "core_lesson": "Utilize specific Surahs like Al-Fatiha for divine healing."
+      },
+      {
+        "id": "QR-08",
+        "topic": "Reciting in Pleasing Voices",
+        "saying": "Adorn the text with a sincere, melodious tone, but avoid singing styles that distort the rules of traditional Arabic grammar.",
+        "core_lesson": "Melody should serve the text, not distort its phonetic rules."
+      },
+      {
+        "id": "QR-09",
+        "topic": "Memorization of Verses",
+        "saying": "A heart that does not contain any part or verses of the Holy Quran is like a ruined, desolate house.",
+        "core_lesson": "Commit key chapters to memory to keep the heart lively."
+      },
+      {
+        "id": "QR-10",
+        "topic": "The Station of Hafiz",
+        "saying": "A true Hafiz of the Quran who protects its laws and boundaries will be an intercessor for his family on the Day of Judgment.",
+        "core_lesson": "Preserving the text in the mind requires lifelong responsibility."
+      },
+      {
+        "id": "QR-11",
+        "topic": "Arguing Over Meanings",
+        "saying": "Do not interpret the profound meanings of the Quran using your own flawed intellect without consulting classical scholars and Tafsir.",
+        "core_lesson": "Self-styled interpretation without academic grounding leads to misguidance."
+      }
+    ],
+    "urs_and_isal_e_sawab": [
+      {
+        "id": "UR-01",
+        "topic": "The Purpose of Urs",
+        "saying": "The true meaning of Urs is to gather for the recitation of the Quran, feed the poor, and send spiritual rewards to the souls of the pious Awliya.",
+        "core_lesson": "Commemoration must be centered purely around lawful worship."
+      },
+      {
+        "id": "UR-02",
+        "topic": "Prohibition of Grave Prostration",
+        "saying": "To perform prostration (Sajdah) to a grave out of reverence is strictly forbidden (Haram), and doing it with an intention of worship is absolute Kufr.",
+        "core_lesson": "Sajdah belongs exclusively to Allah Almighty."
+      },
+      {
+        "id": "UR-03",
+        "topic": "Banning of Gender Mixing",
+        "saying": "Gatherings where men and women mix freely without valid Islamic partitions or where un-Islamic innovations take place lose all spiritual blessings.",
+        "core_lesson": "Modesty must be maintained at religious shrines."
+      },
+      {
+        "id": "UR-04",
+        "topic": "Visiting Shrines (Ziyarat)",
+        "saying": "When visiting the resting places of the Awliya, stand at a respectful distance, recite Isal-e-Sawab, and use their spiritual station as a means to ask Allah.",
+        "core_lesson": "Shrines are places to remember death and seek divine mercy."
+      },
+      {
+        "id": "UR-05",
+        "topic": "Sending Rewards to the Deceased",
+        "saying": "The deceased in their graves eagerly await the gifts of prayer, Istighfar, and charity sent to them by their living family members.",
+        "core_lesson": "Isal-e-Sawab bridges the living world with the realm of souls."
+      },
+      {
+        "id": "UR-06",
+        "topic": "Placing Flowers on Graves",
+        "saying": "Placing fresh green flowers on graves is recommended, because as long as they stay fresh, they perform Tasbih, which brings comfort to the soul.",
+        "core_lesson": "Nature's glorification of Allah acts as a source of mercy."
+      },
+      {
+        "id": "UR-07",
+        "topic": "No Financial Exploitation",
+        "saying": "Reciting the Holy Quran or religious hymns for the deceased must be done out of pure love, never for commercial or financial negotiation.",
+        "core_lesson": "Spiritual reward cannot be bought or sold for worldly wages."
+      },
+      {
+        "id": "UR-08",
+        "topic": "Avoiding Loud Wailing",
+        "saying": "Patience during a bereavement is heavily rewarded, whereas loud wailing and tearing of clothes causes distress to the departed soul.",
+        "core_lesson": "Submit to the divine decree with dignity and prayer."
+      },
+      {
+        "id": "UR-09",
+        "topic": "Charity on Behalf of Parents",
+        "saying": "Even giving a single glass of water to a thirsty person with the intention of sending reward to your deceased parents reaches them instantly.",
+        "core_lesson": "Small acts of charity carry immense weight when gifted to ancestors."
+      },
+      {
+        "id": "UR-10",
+        "topic": "Maintaining Graveyard Manners",
+        "saying": "Do not walk over, step on, or sit carelessly upon any grave, for the sanctity of a Muslim remains intact even after their death.",
+        "core_lesson": "Respect for the dead mirrors respect for the living."
+      },
+      {
+        "id": "UR-11",
+        "topic": "Spiritual Lineage Connections",
+        "saying": "Staying connected to your spiritual guide (Pir) and attending the annual Urs of their lineage keeps your faith anchored against modern trials.",
+        "core_lesson": "Spiritual companionship preserves long-term religious values."
+      }
+    ],
+    "good_deeds_and_character": [
+      {
+        "id": "GD-01",
+        "topic": "Love for the Prophet",
+        "saying": "The absolute foundation of all good deeds is deep, unyielding love and reverence for the Holy Prophet Muhammad.",
+        "core_lesson": "Deeds void of prophetic devotion carry no weight in Islam."
+      },
+      {
+        "id": "GD-02",
+        "topic": "Respecting Parents",
+        "saying": "Looking at the faces of your parents with love and devotion yields the spiritual reward of an accepted voluntary Hajj.",
+        "core_lesson": "Filial piety is a fast track to gaining the pleasure of Allah."
+      },
+      {
+        "id": "GD-03",
+        "topic": "Cleansing the Heart of Malice",
+        "saying": "Do not allow mutual worldly disagreements to breed long-lasting hatred or malice against another Muslim brother.",
+        "core_lesson": "A clean heart is a prerequisite for accepted prayers."
+      },
+      {
+        "id": "GD-04",
+        "topic": "Honesty in Commerce",
+        "saying": "Earning a lawful livelihood (Halal Rizq) through honest trade is an obligation that follows right after the primary obligations of worship.",
+        "core_lesson": "Economic integrity protects the acceptance of internal worship."
+      },
+      {
+        "id": "GD-05",
+        "topic": "Shariah and Sufism",
+        "saying": "The sacred Shariah is the root, and the Sufi path (Tariqah) is its branch. Anyone trying to bypass the root will find their branch withered.",
+        "core_lesson": "Mystical insight cannot exist outside the boundaries of Islamic law."
+      },
+      {
+        "id": "GD-06",
+        "topic": "Respecting Islamic Scholars",
+        "saying": "To disrespect or mock an authentic, practicing Islamic scholar due to their knowledge is a sign of underlying hypocrisy.",
+        "core_lesson": "Scholars are the inheritors of prophetic knowledge."
+      },
+      {
+        "id": "GD-07",
+        "topic": "Guarding the Tongue",
+        "saying": "Backbiting and speaking ill behind someone's back destroys your own stock of good deeds faster than physical sins.",
+        "core_lesson": "Protect your spiritual wealth by controlling your speech."
+      },
+      {
+        "id": "GD-08",
+        "topic": "Feeding the Hungry",
+        "saying": "To feed a hungry human being or animal out of pure mercy is an act that can easily draw down the overarching forgiveness of Allah.",
+        "core_lesson": "Compassion to creation is a marker of genuine faith."
+      },
+      {
+        "id": "GD-09",
+        "topic": "Avoiding Arrogance",
+        "saying": "An ounce of true humility inside your character is far superior to mountains of worship ruined by pride and self-righteousness.",
+        "core_lesson": "Arrogance blocks the pathways of divine enlightenment."
+      },
+      {
+        "id": "GD-10",
+        "topic": "Consistency in Small Actions",
+        "saying": "The most beloved good deed in the court of Heaven is that which is performed regularly, even if it is small in appearance.",
+        "core_lesson": "Habitual virtue builds resilient spiritual character."
+      },
+      {
+        "id": "GD-11",
+        "topic": "Adhering to the Righteous Path",
+        "saying": "Hold fast to the consensus of the mainstream righteous majority (Ahle Sunnat), and do not be swayed by fleeting modern innovations.",
+        "core_lesson": "The community consensus protects individuals from straying."
+      },
+      {
+        "id": "GD-12",
+        "topic": "Preparing for Death",
+        "saying": "Live your life in this world like a passing traveler, ensuring your bags are packed with prayers, repentance, and sincere intentions.",
+        "core_lesson": "Remembrance of the afterlife filters out worldly greed."
+      }
+    ]
+  }
+}
