@@ -1,1 +1,158 @@
-
+{
+  "collection": "namaz_masail",
+  "title": "Namaz Masail",
+  "defaultMadhhab": "hanafi",
+  "version": "1.0",
+  "items": [
+    {
+      "id": "namaz_masail_001",
+      "category": "conditions",
+      "title": "Conditions Before Salah",
+      "question": "What conditions must be fulfilled before starting Salah?",
+      "answer": "Before Salah, the worshipper should be in a state of purification, the body, clothes and place of prayer should be clean from impurity, the awrah must be covered, the time of Salah must have begun, the worshipper should face the Qiblah, and the intention for the Salah should be made.",
+      "madhhab": "hanafi",
+      "keywords": ["salah", "conditions", "wudu", "qiblah", "intention", "purity"],
+      "reference": ""
+    },
+    {
+      "id": "namaz_masail_002",
+      "category": "takbir",
+      "title": "Starting Salah",
+      "question": "How does a person begin Salah?",
+      "answer": "Salah begins with Takbir-e-Tahrimah. The worshipper makes the intention for the prayer and says 'Allahu Akbar' while beginning the Salah.",
+      "madhhab": "hanafi",
+      "keywords": ["takbir", "takbir-e-tahrimah", "start salah", "niyyah"],
+      "reference": ""
+    },
+    {
+      "id": "namaz_masail_003",
+      "category": "qiyam",
+      "title": "Standing in Fard Salah",
+      "question": "Is standing necessary during Fard Salah?",
+      "answer": "A person who is physically capable of standing must perform the obligatory Salah while standing. If a genuine illness or inability prevents standing, the person may pray according to their ability.",
+      "madhhab": "hanafi",
+      "keywords": ["qiyam", "standing", "fard", "illness"],
+      "reference": ""
+    },
+    {
+      "id": "namaz_masail_004",
+      "category": "qiraat",
+      "title": "Reciting Surah Al-Fatihah",
+      "question": "Is Surah Al-Fatihah recited in Salah?",
+      "answer": "Surah Al-Fatihah is recited during Salah. In the Hanafi school, its recitation has specific rulings depending on whether a person is praying individually, as an Imam, or behind an Imam.",
+      "madhhab": "hanafi",
+      "keywords": ["fatihah", "qiraat", "recitation", "imam", "muqtadi"],
+      "reference": ""
+    },
+    {
+      "id": "namaz_masail_005",
+      "category": "ruku",
+      "title": "Ruku",
+      "question": "Is Ruku necessary in Salah?",
+      "answer": "Ruku is an essential part of Salah. The worshipper bows sufficiently and should perform the Ruku calmly rather than rushing through it.",
+      "madhhab": "hanafi",
+      "keywords": ["ruku", "bowing", "salah"],
+      "reference": ""
+    },
+    {
+      "id": "namaz_masail_006",
+      "category": "sajdah",
+      "title": "Sajdah",
+      "question": "How many Sajdahs are performed in each rak'ah?",
+      "answer": "Two Sajdahs are performed in every rak'ah. Sajdah is an essential part of Salah and must be performed properly.",
+      "madhhab": "hanafi",
+      "keywords": ["sajdah", "sujud", "rakah", "prostration"],
+      "reference": ""
+    },
+    {
+      "id": "namaz_masail_007",
+      "category": "congregation",
+      "title": "Following the Imam",
+      "question": "Should a follower perform movements before the Imam?",
+      "answer": "A person praying behind an Imam should follow the Imam and should not deliberately precede him in the movements of Salah.",
+      "madhhab": "hanafi",
+      "keywords": ["imam", "muqtadi", "jamaat", "congregation"],
+      "reference": ""
+    },
+    {
+      "id": "namaz_masail_008",
+      "category": "congregation",
+      "title": "Joining Salah During Ruku",
+      "question": "If someone joins the Imam during Ruku, is the rak'ah counted?",
+      "answer": "If a person joins the congregational prayer and reaches the Ruku with the Imam before the Imam rises from Ruku, that rak'ah is counted according to the Hanafi school.",
+      "madhhab": "hanafi",
+      "keywords": ["ruku", "jamaat", "latecomer", "imam", "rakah"],
+      "reference": ""
+    },
+    {
+      "id": "namaz_masail_009",
+      "category": "mistakes",
+      "title": "Forgetting a Wajib Act",
+      "question": "What should be done if a Wajib act of Salah is accidentally omitted?",
+      "answer": "If a Wajib act is unintentionally omitted or delayed in a manner requiring correction, Sajdah Sahw may become necessary according to the Hanafi rules.",
+      "madhhab": "hanafi",
+      "keywords": ["wajib", "mistake", "sajdah sahw", "forgetfulness"],
+      "reference": ""
+    },
+    {
+      "id": "namaz_masail_010",
+      "category": "mistakes",
+      "title": "Sajdah Sahw",
+      "question": "What is Sajdah Sahw?",
+      "answer": "Sajdah Sahw refers to the prostrations performed to compensate for certain mistakes or omissions that occur unintentionally during Salah. The exact circumstances and method depend on the nature of the mistake.",
+      "madhhab": "hanafi",
+      "keywords": ["sajdah sahw", "mistake", "forgetfulness", "salah"],
+      "reference": ""
+    },
+    {
+      "id": "namaz_masail_011",
+      "category": "invalidators",
+      "title": "Talking During Salah",
+      "question": "What happens if a person deliberately speaks during Salah?",
+      "answer": "Ordinary deliberate speech that is not part of Salah invalidates the prayer.",
+      "madhhab": "hanafi",
+      "keywords": ["talking", "speech", "invalid", "salah"],
+      "reference": ""
+    },
+    {
+      "id": "namaz_masail_012",
+      "category": "invalidators",
+      "title": "Eating or Drinking During Salah",
+      "question": "Can a person eat or drink while performing Salah?",
+      "answer": "Eating or drinking during Salah invalidates the prayer according to the applicable Hanafi rulings.",
+      "madhhab": "hanafi",
+      "keywords": ["eating", "drinking", "invalid", "salah"],
+      "reference": ""
+    },
+    {
+      "id": "namaz_masail_013",
+      "category": "qiblah",
+      "title": "Facing the Qiblah",
+      "question": "Is facing the Qiblah necessary for Salah?",
+      "answer": "Facing the Qiblah is a condition of Salah when a person is able to do so. Special rulings apply when a person genuinely cannot determine or face the Qiblah.",
+      "madhhab": "hanafi",
+      "keywords": ["qiblah", "kaaba", "direction", "salah"],
+      "reference": ""
+    },
+    {
+      "id": "namaz_masail_014",
+      "category": "missed_prayer",
+      "title": "Making Up a Missed Fard Salah",
+      "question": "What should a person do if a Fard Salah has been missed?",
+      "answer": "A missed obligatory Salah should be made up as Qada. A person should also seek Allah's forgiveness where the prayer was missed without a valid excuse.",
+      "madhhab": "hanafi",
+      "keywords": ["qada", "missed salah", "fard", "prayer"],
+      "reference": ""
+    },
+    {
+      "id": "namaz_masail_015",
+      "category": "sick_person",
+      "title": "Salah When Unable to Stand",
+      "question": "How should a sick person pray if they cannot stand?",
+      "answer": "If a person is genuinely unable to stand, or standing would cause serious difficulty or aggravate the illness, Salah may be performed sitting. If sitting is also not possible, further concessions apply according to the person's ability.",
+      "madhhab": "hanafi",
+      "keywords": ["sick", "sitting", "qiyam", "illness", "salah"],
+      "reference": ""
+    }
+  ]
+}
