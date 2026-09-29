@@ -1,0 +1,158 @@
+{
+  "collection": "wudhu_masail",
+  "title": "Wudhu Masail",
+  "defaultMadhhab": "hanafi",
+  "version": "1.0",
+  "items": [
+    {
+      "id": "wudhu_001",
+      "category": "fard",
+      "title": "Fard Acts of Wudhu",
+      "question": "How many Fard acts are there in Wudhu?",
+      "answer": "According to the Hanafi school, there are four Fard acts of Wudhu: washing the entire face, washing both arms including the elbows, wiping at least one-quarter of the head, and washing both feet including the ankles.",
+      "madhhab": "hanafi",
+      "keywords": ["wudhu", "fard", "face", "arms", "masah", "feet"],
+      "reference": ""
+    },
+    {
+      "id": "wudhu_002",
+      "category": "sunnah",
+      "title": "Beginning with Bismillah",
+      "question": "Should Bismillah be recited before Wudhu?",
+      "answer": "It is Sunnah to begin Wudhu by saying Bismillah.",
+      "madhhab": "hanafi",
+      "keywords": ["wudhu", "bismillah", "sunnah"],
+      "reference": ""
+    },
+    {
+      "id": "wudhu_003",
+      "category": "sunnah",
+      "title": "Washing the Hands",
+      "question": "Should the hands be washed at the beginning of Wudhu?",
+      "answer": "It is Sunnah to wash both hands up to the wrists three times at the beginning of Wudhu.",
+      "madhhab": "hanafi",
+      "keywords": ["hands", "wudhu", "washing", "sunnah"],
+      "reference": ""
+    },
+    {
+      "id": "wudhu_004",
+      "category": "sunnah",
+      "title": "Rinsing the Mouth",
+      "question": "Should the mouth be rinsed during Wudhu?",
+      "answer": "Rinsing the mouth three times during Wudhu is Sunnah.",
+      "madhhab": "hanafi",
+      "keywords": ["mouth", "rinsing", "wudhu", "sunnah"],
+      "reference": ""
+    },
+    {
+      "id": "wudhu_005",
+      "category": "sunnah",
+      "title": "Cleaning the Nose",
+      "question": "Should water be put into the nose during Wudhu?",
+      "answer": "Drawing water into the nose and cleaning it three times during Wudhu is Sunnah.",
+      "madhhab": "hanafi",
+      "keywords": ["nose", "water", "wudhu", "sunnah"],
+      "reference": ""
+    },
+    {
+      "id": "wudhu_006",
+      "category": "method",
+      "title": "Washing Each Limb Three Times",
+      "question": "How many times should the washable parts be washed?",
+      "answer": "Washing the relevant limbs three times is Sunnah. Washing once completely fulfils the obligatory washing requirement where washing that limb is Fard.",
+      "madhhab": "hanafi",
+      "keywords": ["three times", "washing", "wudhu", "sunnah"],
+      "reference": ""
+    },
+    {
+      "id": "wudhu_007",
+      "category": "invalidators",
+      "title": "Passing Urine or Stool",
+      "question": "Does passing urine or stool break Wudhu?",
+      "answer": "Yes. Passing urine or stool nullifies Wudhu, and Wudhu must be renewed before performing an act that requires Wudhu.",
+      "madhhab": "hanafi",
+      "keywords": ["urine", "stool", "break wudhu", "invalidators"],
+      "reference": ""
+    },
+    {
+      "id": "wudhu_008",
+      "category": "invalidators",
+      "title": "Passing Wind",
+      "question": "Does passing wind break Wudhu?",
+      "answer": "Yes. Passing wind nullifies Wudhu.",
+      "madhhab": "hanafi",
+      "keywords": ["wind", "gas", "break wudhu", "invalidators"],
+      "reference": ""
+    },
+    {
+      "id": "wudhu_009",
+      "category": "invalidators",
+      "title": "Sleeping",
+      "question": "Does sleeping break Wudhu?",
+      "answer": "Certain forms of sleep nullify Wudhu. In the Hanafi school, the ruling depends on the person's position and whether the body remains firmly seated. Deep sleep in a position where bodily control is lost generally nullifies Wudhu.",
+      "madhhab": "hanafi",
+      "keywords": ["sleep", "sleeping", "break wudhu"],
+      "reference": ""
+    },
+    {
+      "id": "wudhu_010",
+      "category": "invalidators",
+      "title": "Bleeding",
+      "question": "Does bleeding break Wudhu?",
+      "answer": "According to the Hanafi school, if blood or pus emerges from a wound and flows beyond the place from which it emerged, Wudhu is nullified.",
+      "madhhab": "hanafi",
+      "keywords": ["blood", "bleeding", "pus", "hanafi", "break wudhu"],
+      "reference": ""
+    },
+    {
+      "id": "wudhu_011",
+      "category": "invalidators",
+      "title": "Vomiting",
+      "question": "Does vomiting break Wudhu?",
+      "answer": "According to the Hanafi school, vomiting a mouthful nullifies Wudhu. Smaller amounts have different rulings depending on the circumstances.",
+      "madhhab": "hanafi",
+      "keywords": ["vomiting", "vomit", "break wudhu", "hanafi"],
+      "reference": ""
+    },
+    {
+      "id": "wudhu_012",
+      "category": "doubt",
+      "title": "Doubt About Wudhu",
+      "question": "What should a person do if they are unsure whether their Wudhu has broken?",
+      "answer": "If a person is certain that they had Wudhu but is merely doubtful whether it has broken, they remain in the state of Wudhu until they are certain that it has been nullified.",
+      "madhhab": "hanafi",
+      "keywords": ["doubt", "certainty", "wudhu", "waswasa"],
+      "reference": ""
+    },
+    {
+      "id": "wudhu_013",
+      "category": "barriers",
+      "title": "Water Must Reach the Skin",
+      "question": "What if something prevents water from reaching the skin?",
+      "answer": "For the parts that must be washed in Wudhu, water must reach the required area. A substance that forms a waterproof barrier and prevents water from reaching the required skin must normally be removed before Wudhu.",
+      "madhhab": "hanafi",
+      "keywords": ["water", "barrier", "skin", "paint", "wudhu"],
+      "reference": ""
+    },
+    {
+      "id": "wudhu_014",
+      "category": "masah",
+      "title": "Masah of the Head",
+      "question": "How much of the head must be wiped during Wudhu?",
+      "answer": "According to the Hanafi school, wiping at least one-quarter of the head is Fard in Wudhu. Wiping the entire head according to the Sunnah method is recommended.",
+      "madhhab": "hanafi",
+      "keywords": ["masah", "head", "quarter", "wudhu", "hanafi"],
+      "reference": ""
+    },
+    {
+      "id": "wudhu_015",
+      "category": "water",
+      "title": "Using Too Much Water",
+      "question": "Should excessive water be used for Wudhu?",
+      "answer": "Water should not be wasted while performing Wudhu. The limbs should be washed properly while avoiding unnecessary excess.",
+      "madhhab": "hanafi",
+      "keywords": ["water", "waste", "wudhu", "israf"],
+      "reference": ""
+    }
+  ]
+}
