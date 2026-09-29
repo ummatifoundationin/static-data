@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "topic": "Intentions",
+    "arabic": "إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ",
+    "english": "Actions are but by intentions.",
+    "urdu": "اعمال کا دارومدار نیتوں پر ہے۔",
+    "reference": "Sahih al-Bukhari"
+  },
+  {
+    "id": 2,
+    "topic": "Religion is Sincerity",
+    "arabic": "الدِّينُ النَّصِيحَةُ",
+    "english": "Religion is sincerity.",
+    "urdu": "دین خیر خواہی کا نام ہے۔",
+    "reference": "Sahih Muslim"
+  },
+  {
+    "id": 3,
+    "topic": "Cleanliness",
+    "arabic": "الطُّهُورُ شَطْرُ الإِيمَانِ",
+    "english": "Purity is half of faith.",
+    "urdu": "پاکیزگی نصف ایمان ہے۔",
+    "reference": "Sahih Muslim"
+  },
+  {
+    "id": 4,
+    "topic": "Good Character",
+    "arabic": "خِيَارُكُمْ أَحْسَنُكُمْ أَخْلاَقًا",
+    "english": "The best of you are those who have the best character.",
+    "urdu": "تم میں سے سب سے بہتر وہ ہے جس کے اخلاق سب سے اچھے ہوں۔",
+    "reference": "Sahih al-Bukhari"
+  },
+  {
+    "id": 5,
+    "topic": "Kindness",
+    "arabic": "مَنْ لاَ يَرْحَمْ لاَ يُرْحَمْ",
+    "english": "He who does not show mercy will not be shown mercy.",
+    "urdu": "جو رحم نہیں کرتا، اس پر رحم نہیں کیا جاتا۔",
+    "reference": "Sahih al-Bukhari"
+  },
+  {
+    "id": 6,
+    "topic": "Supplication",
+    "arabic": "الدُّعَاءُ هُوَ الْعِبَادَةُ",
+    "english": "Supplication is the essence of worship.",
+    "urdu": "دعا ہی عبادت ہے۔",
+    "reference": "Jami` at-Tirmidhi"
+  },
+  {
+    "id": 7,
+    "topic": "Anger",
+    "arabic": "لاَ تَغْضَبْ",
+    "english": "Do not become angry.",
+    "urdu": "غصہ نہ کرو۔",
+    "reference": "Sahih al-Bukhari"
+  },
+  {
+    "id": 8,
+    "topic": "Modesty",
+    "arabic": "الْحَيَاءُ شُعْبَةٌ مِنَ الإِيمَانِ",
+    "english": "Modesty is a branch of faith.",
+    "urdu": "حیا ایمان کی ایک شاخ ہے۔",
+    "reference": "Sahih al-Bukhari"
+  },
+  {
+    "id": 9,
+    "topic": "Speaking Good",
+    "arabic": "مَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ فَلْيَقُلْ خَيْرًا أَوْ لِيَصْمُتْ",
+    "english": "Whoever believes in Allah and the Last Day should speak good or remain silent.",
+    "urdu": "جو اللہ اور آخرت کے دن پر ایمان رکھتا ہے اسے چاہیے کہ اچھی بات کہے یا خاموش رہے۔",
+    "reference": "Sahih al-Bukhari"
+  },
+  {
+    "id": 10,
+    "topic": "Spreading Peace",
+    "arabic": "أَفْشُوا السَّلاَمَ تَسْلَمُوا",
+    "english": "Spread peace and you will be safe.",
+    "urdu": "سلام کو پھیلاؤ، سلامتی پاؤ گے۔",
+    "reference": "Musnad Ahmad"
+  },
+  {
+    "id": 11,
+    "topic": "Brotherhood",
+    "arabic": "لاَ يُؤْمِنُ أَحَدُكُمْ حَتَّى يُحِبَّ لأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ",
+    "english": "None of you believes until he loves for his brother what he loves for himself.",
+    "urdu": "تم میں سے کوئی شخص اس وقت تک مومن نہیں ہو سکتا جب تک وہ اپنے بھائی کے لیے وہی پسند نہ کرے جو اپنے لیے کرتا ہے۔",
+    "reference": "Sahih al-Bukhari"
+  },
+  {
+    "id": 12,
+    "topic": "Seeking Knowledge",
+    "arabic": "طَلَبُ الْعِلْمِ فَرِيضَةٌ عَلَى كُلِّ مُسْلِمٍ",
+    "english": "Seeking knowledge is an obligation upon every Muslim.",
+    "urdu": "علم حاصل کرنا ہر مسلمان پر فرض ہے۔",
+    "reference": "Sunan Ibn Majah"
+  },
+  {
+    "id": 13,
+    "topic": "Avoiding Doubt",
+    "arabic": "دَعْ مَا يَرِيبُكَ إِلَى مَا لاَ يَرِيبُكَ",
+    "english": "Leave that which makes you doubt for that which does not make you doubt.",
+    "urdu": "شیر و شبہ والی چیز کو چھوڑ کر اس چیز کو اختیار کرو جس میں شک نہ ہو۔",
+    "reference": "Jami` at-Tirmidhi"
+  },
+  {
+    "id": 14,
+    "topic": "Learning the Quran",
+    "arabic": "خَيْرُكُمْ مَنْ تَعَلَّمَ الْقُرْآنَ وَعَلَّمَهُ",
+    "english": "The best of you are those who learn the Quran and teach it.",
+    "urdu": "تم میں سے بہترین شخص وہ ہے جو قرآن سیکھے اور دوسروں کو سکھائے۔",
+    "reference": "Sahih al-Bukhari"
+  },
+  {
+    "id": 15,
+    "topic": "True Wealth",
+    "arabic": "لَيْسَ الْغِنَى عَنْ كَثْرَةِ الْعَرَضِ وَلَكِنَّ الْغِنَى غِنَى النَّفْسِ",
+    "english": "Wealth is not in having many possessions, but wealth is the wealth of the soul.",
+    "urdu": "امیر ہونا مال کی کثرت سے نہیں ہے بلکہ اصل امیری دل کا غنی ہونا ہے۔",
+    "reference": "Sahih al-Bukhari"
+  },
+  {
+    "id": 16,
+    "topic": "Gentleness",
+    "arabic": "إِنَّ اللَّهَ رَفِيقٌ يُحِبُّ الرِّفْقَ",
+    "english": "Allah is gentle and He loves gentleness.",
+    "urdu": "بے شک اللہ نرمی کرنے والا ہے اور نرمی کو پسند کرتا ہے۔",
+    "reference": "Sahih Muslim"
+  },
+  {
+    "id": 17,
+    "topic": "Fearing Allah",
+    "arabic": "اتَّقِ اللَّهَ حَيْثُمَا كُنْتَ",
+    "english": "Fear Allah wherever you are.",
+    "urdu": "تم جہاں کہیں بھی ہو اللہ سے ڈرو۔",
+    "reference": "Jami` at-Tirmidhi"
+  },
+  {
+    "id": 18,
+    "topic": "Good Deeds and Sins",
+    "arabic": "وَأَتْبِعِ السَّيِّئَةَ الْحَسَنَةَ تَمْحُهَا",
+    "english": "Follow up a bad deed with a good deed and it will wipe it out.",
+    "urdu": "برائی کے بعد نیکی کرو وہ اسے مٹا دے گی۔",
+    "reference": "Jami` at-Tirmidhi"
+  },
+  {
+    "id": 19,
+    "topic": "Treating People Well",
+    "arabic": "وَخَالِقِ النَّاسَ بِخُلُقٍ حَسَنٍ",
+    "english": "And behave towards the people with a good character.",
+    "urdu": "اور لوگوں کے ساتھ اچھے اخلاق سے پیش آؤ۔",
+    "reference": "Jami` at-Tirmidhi"
+  },
+  {
+    "id": 20,
+    "topic": "Oppression",
+    "arabic": "الظُّلْمُ ظُلُمَاتٌ يَوْمَ الْقِيَامَةِ",
+    "english": "Oppression will be a darkness on the Day of Resurrection.",
+    "urdu": "ظلم قیامت کے دن اندھیروں کا سبب بنے گا۔",
+    "reference": "Sahih al-Bukhari"
+  },
+  {
+    "id": 21,
+    "topic": "Honesty",
+    "arabic": "عَلَيْكُمْ بِالصِّدْقِ فَإِنَّ الصِّدْقَ يَهْدِي إِلَى الْبِرِّ",
+    "english": "You must be truthful, for truthfulness leads to righteousness.",
+    "urdu": "سچائی کو لازم پکڑو، کیونکہ سچائی نیکی کی طرف لے جاتی ہے۔",
+    "reference": "Sahih Muslim"
+  },
+  {
+    "id": 22,
+    "topic": "Avoiding Harm",
+    "arabic": "لاَ ضَرَرَ وَلاَ ضِرَارَ",
+    "english": "There should be neither harming nor reciprocating harm.",
+    "urdu": "نہ کسی کو نقصان پہنچایا جائے اور نہ نقصان کا بدلہ نقصان سے دیا جائے۔",
+    "reference": "Sunan Ibn Majah"
+  },
+  {
+    "id": 23,
+    "topic": "Mind your own business",
+    "arabic": "مِنْ حُسْنِ إِسْلاَمِ الْمَرْءِ تَرْكُهُ مَا لاَ يَعْنِيهِ",
+    "english": "Part of the perfection of one's Islam is his leaving that which does not concern him.",
+    "urdu": "انسان کے اسلام کی خوبی یہ ہے کہ وہ فضول اور لا یعنٰی چیزوں کو چھوڑ دے۔",
+    "reference": "Jami` at-Tirmidhi"
+  },
+  {
+    "id": 24,
+    "topic": "The Muslim Household",
+    "arabic": "خَيْرُكُمْ خَيْرُكُمْ لأَهْلِهِ",
+    "english": "The best of you is the one who is best to his family.",
+    "urdu": "تم میں سے بہتر وہ ہے جو اپنے اہل و عیال کے لیے بہتر ہو۔",
+    "reference": "Jami` at-Tirmidhi"
+  },
+  {
+    "id": 25,
+    "topic": "Gratitude",
+    "arabic": "مَنْ لَمْ يَشْكُرِ النَّاسَ لَمْ يَشْكُرِ اللَّهَ",
+    "english": "He who does not thank people does not thank Allah.",
+    "urdu": "جو لوگوں کا شکر ادا نہیں کرتا وہ اللہ کا بھی شکر ادا نہیں کرتا۔",
+    "reference": "Jami` at-Tirmidhi"
+  },
+  {
+    "id": 26,
+    "topic": "Every Good is Charity",
+    "arabic": "كُلُّ مَعْرُوفٍ صَدَقَةٌ",
+    "english": "Every good deed is a charity.",
+    "urdu": "ہر نیکی کا کام صدقہ ہے۔",
+    "reference": "Sahih al-Bukhari"
+  },
+  {
+    "id": 27,
+    "topic": "Smiling",
+    "arabic": "تَبَسُّمُكَ فِي وَجْهِ أَخِيكَ لَكَ صَدَقَةٌ",
+    "english": "Your smiling in the face of your brother is charity.",
+    "urdu": "اپنے بھائی کے سامنے تمہارا مسکرانا تمہارے لیے صدقہ ہے۔",
+    "reference": "Jami` at-Tirmidhi"
+  },
+  {
+    "id": 28,
+    "topic": "Fulfilling Trusts",
+    "arabic": "أَدِّ الأَمَانَةَ إِلَى مَنِ ائْتَمَنَكَ",
+    "english": "Fulfill the trust to the one who trusted you.",
+    "urdu": "جس نے تم پر بھروسہ کیا اس کی امانت اسے ادا کرو۔",
+    "reference": "Sunan Abi Dawud"
+  },
+  {
+    "id": 29,
+    "topic": "Righteous Companion",
+    "arabic": "الْمَرْءُ مَعَ مَنْ أَحَبَّ",
+    "english": "A person will be with those whom he loves.",
+    "urdu": "انسان (قیامت کے دن) اسی کے ساتھ ہوگا جس سے وہ محبت کرتا ہے۔",
+    "reference": "Sahih al-Bukhari"
+  },
+  {
+    "id": 30,
+    "topic": "The Way to Paradise",
+    "arabic": "مَنْ سَلَكَ طَرِيقًا يَلْتَمِسُ فِيهِ عِلْمًا سَهَّلَ اللَّهُ لَهُ بِهِ طَرِيقًا إِلَى الْجَنَّةِ",
+    "english": "Whoever takes a path upon which he seeks knowledge, Allah will make the path to Paradise easy for him.",
+    "urdu": "جو شخص علم کی تلاش میں کسی راستے پر چلے گا، اللہ اس کے لیے جنت کا راستہ آسان کر دے گا۔",
+    "reference": "Sahih Muslim"
+  },
+  {
+    "id": 31,
+    "topic": "Greed",
+    "arabic": "إِيَّاكُمْ وَالشُّحَّ فَإِنَّ الشُّحَّ أَهْلَكَ مَنْ كَانَ قَبْلَكُمْ",
+    "english": "Beware of greed, for greed destroyed those who came before you.",
+    "urdu": "بخل اور لالچ سے بچو، کیونکہ اس نے تم سے پہلے لوگوں کو ہلاک کر دیا۔",
+    "reference": "Sahih Muslim"
+  },
+  {
+    "id": 32,
+    "topic": "Steadfastness",
+    "arabic": "قُلْ آمَنْتُ بِاللَّهِ فَاسْتَقِمْ",
+    "english": "Say: 'I believe in Allah,' and then stand firm.",
+    "urdu": "کہو: 'میں اللہ پر ایمان لایا'، پھر اس پر قائم رہو۔",
+    "reference": "Sahih Muslim"
+  },
+  {
+    "id": 33,
+    "topic": "Neighborly Treatment",
+    "arabic": "مَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ فَلاَ يُؤْذِ جَارَهُ",
+    "english": "Whoever believes in Allah and the Last Day should not harm his neighbor.",
+    "urdu": "جو اللہ اور آخرت کے دن پر ایمان رکھتا ہے اسے اپنے پڑوسی کو تکلیف نہیں پہنچانی چاہیے۔",
+    "reference": "Sahih al-Bukhari"
+  },
+  {
+    "id": 34,
+    "topic": "Contentment",
+    "arabic": "ارْضَ بِمَا قَسَمَ اللَّهُ لَكَ تَكُنْ أَغْنَى النَّاسِ",
+    "english": "Be content with what Allah has allotted for you, and you will be the richest of people.",
+    "urdu": "اللہ نے جو تمہارے حصے میں رکھا ہے اس پر راضی رہو، تم سب سے غنی انسان بن جاؤ گے۔",
+    "reference": "Jami` at-Tirmidhi"
+  },
+  {
+    "id": 35,
+    "topic": "Ease not Hardship",
+    "arabic": "يَسِّرُوا وَلاَ تُعَسِّرُوا وَبَشِّرُوا وَلاَ تُنَفِّرُوا",
+    "english": "Make things easy and do not make them difficult, cheer people up and do not drive them away.",
+    "urdu": "آسانیاں پیدا کرو اور تنگی نہ کرو، خوشخبری دو اور متنفر نہ کرو۔",
+    "reference": "Sahih al-Bukhari"
+  },
+  {
+    "id": 36,
+    "topic": "Repentance",
+    "arabic": "التَّائِبُ مِنَ الذَّنْبِ كَمَنْ لاَ ذَنْبَ لَهُ",
+    "english": "The one who repents from sin is like one who has no sin.",
+    "urdu": "گناہ سے توبہ کرنے والا ایسا ہے جیسے اس کا کوئی گناہ ہی نہ ہو۔",
+    "reference": "Sunan Ibn Majah"
+  },
+  {
+    "id": 37,
+    "topic": "Remembering Allah",
+    "arabic": "لاَ يَزَالُ لِسَانُكَ رَطْبًا مِنْ ذِكْرِ اللَّهِ",
+    "english": "Keep your tongue wet with the remembrance of Allah.",
+    "urdu": "تمہاری زبان ہمیشہ اللہ کے ذکر سے تر رہنی چاہیے۔",
+    "reference": "Jami` at-Tirmidhi"
+  },
+  {
+    "id": 38,
+    "topic": "Perfecting Faith",
+    "arabic": "أَكْمَلُ الْمُؤْمِنِينَ إِيمَانًا أَحْسَنُهُمْ خُلُقًا",
+    "english": "The most perfect of the believers in faith are the best of them in morals.",
+    "urdu": "مومنوں میں ایمان کے اعتبار سے سب سے کامل وہ ہیں جن کے اخلاق سب سے اچھے ہوں۔",
+    "reference": "Jami` at-Tirmidhi"
+  },
+  {
+    "id": 39,
+    "topic": "The Best Speech",
+    "arabic": "أَحْسَنَ الْحَدِيثِ كِتَابُ اللَّهِ",
+    "english": "The best speech is the Book of Allah.",
+    "urdu": "بہترین کلام اللہ کی کتاب ہے۔",
+    "reference": "Sahih Muslim"
+  },
+  {
+    "id": 40,
+    "topic": "Preserving Prophetic Heritage",
+    "arabic": "نَضَّرَ اللَّهُ امْرَأً سَمِعَ مِنَّا حَدِيثًا فَحَفِظَهُ حَتَّى يُبَلِّغَهُ",
+    "english": "May Allah brighten a person who hears a hadith from us, memorizes it, and conveys it.",
+    "urdu": "اللہ اس شخص کو تروتازہ رکھے جس نے ہم سے کوئی حدیث سنی، اسے یاد رکھا اور اسے دوسروں تک پہنچایا۔",
+    "reference": "Jami` at-Tirmidhi"
+  }
+]
