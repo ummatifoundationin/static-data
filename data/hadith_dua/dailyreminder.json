@@ -1,0 +1,357 @@
+{
+  "version": 1,
+  "name": "Ummathi Daily Reminder",
+  "description": "Short daily Islamic motivational reminders.",
+  "reminders": [
+    {
+      "id": "DR001",
+      "type": "motivation",
+      "category": "namaz",
+      "title": "Come Back to Salah",
+      "message": "Whatever today brings, take a moment to pause, pray, and reconnect with Allah."
+    },
+    {
+      "id": "DR002",
+      "type": "motivation",
+      "category": "namaz",
+      "title": "Find Peace in Sajdah",
+      "message": "When the world feels heavy, place your worries down in Sajdah."
+    },
+    {
+      "id": "DR003",
+      "type": "motivation",
+      "category": "namaz",
+      "title": "Make Time for Salah",
+      "message": "Life will always keep you busy. Let Salah remind you what truly matters."
+    },
+    {
+      "id": "DR004",
+      "type": "motivation",
+      "category": "namaz",
+      "title": "Five Moments of Peace",
+      "message": "Five prayers. Five beautiful opportunities each day to pause and return to Allah."
+    },
+    {
+      "id": "DR005",
+      "type": "motivation",
+      "category": "namaz",
+      "title": "Answer the Call",
+      "message": "When it is time for Salah, leave the world behind for a few moments and turn towards Allah."
+    },
+    {
+      "id": "DR006",
+      "type": "motivation",
+      "category": "quran",
+      "title": "A Verse for Your Heart",
+      "message": "Open the Quran today. Perhaps one Ayah is the reminder your heart has been waiting for."
+    },
+    {
+      "id": "DR007",
+      "type": "motivation",
+      "category": "quran",
+      "title": "A Little Every Day",
+      "message": "You don't need to read much. Begin with a few verses and keep going."
+    },
+    {
+      "id": "DR008",
+      "type": "motivation",
+      "category": "quran",
+      "title": "Read. Reflect. Grow.",
+      "message": "Don't just read the Quran. Pause, understand, and carry its guidance into your day."
+    },
+    {
+      "id": "DR009",
+      "type": "motivation",
+      "category": "quran",
+      "title": "One Ayah Today",
+      "message": "Begin with one Ayah. A beautiful Quran habit can start with something small."
+    },
+    {
+      "id": "DR010",
+      "type": "motivation",
+      "category": "quran",
+      "title": "Make Time for Quran",
+      "message": "Give a few minutes of your day to the Quran and a little less to the noise around you."
+    },
+    {
+      "id": "DR011",
+      "type": "motivation",
+      "category": "dua",
+      "title": "Speak to Allah",
+      "message": "You don't need perfect words. Speak sincerely and let your heart make the Dua."
+    },
+    {
+      "id": "DR012",
+      "type": "motivation",
+      "category": "dua",
+      "title": "Never Stop Asking",
+      "message": "Whatever you are carrying today, place it before Allah in Dua."
+    },
+    {
+      "id": "DR013",
+      "type": "motivation",
+      "category": "dua",
+      "title": "A Quiet Conversation",
+      "message": "Take a moment away from everything. Raise your hands and speak to Allah."
+    },
+    {
+      "id": "DR014",
+      "type": "motivation",
+      "category": "dua",
+      "title": "Ask With Hope",
+      "message": "Make Dua with hope, patience, and trust in Allah."
+    },
+    {
+      "id": "DR015",
+      "type": "motivation",
+      "category": "dua",
+      "title": "Remember Others",
+      "message": "As you make Dua for yourself today, remember your family, friends, and those in need."
+    },
+    {
+      "id": "DR016",
+      "type": "motivation",
+      "category": "dhikr",
+      "title": "Remember Allah",
+      "message": "Keep your tongue busy with Dhikr and your heart connected to Allah."
+    },
+    {
+      "id": "DR017",
+      "type": "motivation",
+      "category": "dhikr",
+      "title": "A Moment of Dhikr",
+      "message": "Pause for a moment. Say SubhanAllah, Alhamdulillah and Allahu Akbar."
+    },
+    {
+      "id": "DR018",
+      "type": "motivation",
+      "category": "dhikr",
+      "title": "Remember Throughout the Day",
+      "message": "Between life's busy moments, make a little space for the remembrance of Allah."
+    },
+    {
+      "id": "DR019",
+      "type": "motivation",
+      "category": "gratitude",
+      "title": "Say Alhamdulillah",
+      "message": "Before asking for more, take a moment to thank Allah for what you already have."
+    },
+    {
+      "id": "DR020",
+      "type": "motivation",
+      "category": "gratitude",
+      "title": "Notice the Blessings",
+      "message": "Some of life's greatest blessings are the ones we forget to notice. Say Alhamdulillah."
+    },
+    {
+      "id": "DR021",
+      "type": "motivation",
+      "category": "gratitude",
+      "title": "Begin With Gratitude",
+      "message": "A grateful heart sees blessings even in the smallest things."
+    },
+    {
+      "id": "DR022",
+      "type": "motivation",
+      "category": "patience",
+      "title": "Hold On to Sabr",
+      "message": "Not everything will happen when you expect it. Be patient and keep trusting Allah."
+    },
+    {
+      "id": "DR023",
+      "type": "motivation",
+      "category": "patience",
+      "title": "One Day at a Time",
+      "message": "You don't have to solve everything today. Have Sabr and take the next right step."
+    },
+    {
+      "id": "DR024",
+      "type": "motivation",
+      "category": "patience",
+      "title": "Trust the Journey",
+      "message": "When you cannot see what comes next, continue with patience, prayer, and trust."
+    },
+    {
+      "id": "DR025",
+      "type": "motivation",
+      "category": "forgiveness",
+      "title": "Return to Allah",
+      "message": "Yesterday's mistakes don't have to define today. Seek forgiveness and begin again."
+    },
+    {
+      "id": "DR026",
+      "type": "motivation",
+      "category": "forgiveness",
+      "title": "Ask for Forgiveness",
+      "message": "Take a quiet moment today to say Astaghfirullah sincerely."
+    },
+    {
+      "id": "DR027",
+      "type": "motivation",
+      "category": "forgiveness",
+      "title": "Begin Again",
+      "message": "Every day is another opportunity to repent, improve, and come closer to Allah."
+    },
+    {
+      "id": "DR028",
+      "type": "motivation",
+      "category": "character",
+      "title": "Choose Kindness",
+      "message": "A gentle word may be the best part of someone's day. Choose kindness."
+    },
+    {
+      "id": "DR029",
+      "type": "motivation",
+      "category": "character",
+      "title": "Beautiful Character",
+      "message": "Let your faith be seen in your honesty, patience, kindness, and the way you treat others."
+    },
+    {
+      "id": "DR030",
+      "type": "motivation",
+      "category": "character",
+      "title": "Guard Your Words",
+      "message": "Before you speak, ask whether your words will bring goodness or unnecessary hurt."
+    },
+    {
+      "id": "DR031",
+      "type": "motivation",
+      "category": "character",
+      "title": "Leave Goodness Behind",
+      "message": "Wherever you go today, leave behind kindness, respect, and something beneficial."
+    },
+    {
+      "id": "DR032",
+      "type": "motivation",
+      "category": "parents",
+      "title": "Remember Your Parents",
+      "message": "Call them, help them, make Dua for them, and speak to them with kindness."
+    },
+    {
+      "id": "DR033",
+      "type": "motivation",
+      "category": "parents",
+      "title": "Make Dua for Them",
+      "message": "Take a moment today to make a sincere Dua for your parents."
+    },
+    {
+      "id": "DR034",
+      "type": "motivation",
+      "category": "charity",
+      "title": "Give Something Today",
+      "message": "A little kindness, time, help, or charity can make someone's day easier."
+    },
+    {
+      "id": "DR035",
+      "type": "motivation",
+      "category": "charity",
+      "title": "Be Someone's Ease",
+      "message": "If you can make someone's burden lighter today, don't miss the opportunity."
+    },
+    {
+      "id": "DR036",
+      "type": "motivation",
+      "category": "charity",
+      "title": "Small Acts Matter",
+      "message": "Never underestimate a small act of goodness done with a sincere intention."
+    },
+    {
+      "id": "DR037",
+      "type": "motivation",
+      "category": "akhirah",
+      "title": "Remember What Lasts",
+      "message": "The world keeps us busy. Take a moment today to remember the Akhirah."
+    },
+    {
+      "id": "DR038",
+      "type": "motivation",
+      "category": "akhirah",
+      "title": "Invest in Your Akhirah",
+      "message": "Do something today that you hope to meet again as a good deed."
+    },
+    {
+      "id": "DR039",
+      "type": "motivation",
+      "category": "akhirah",
+      "title": "What Will You Carry?",
+      "message": "Another day is passing. Fill part of it with something that benefits your Akhirah."
+    },
+    {
+      "id": "DR040",
+      "type": "motivation",
+      "category": "jummah",
+      "title": "Blessed Jummah",
+      "message": "Make this Friday meaningful with Salah, Quran, Dhikr, Dua, and good deeds."
+    },
+    {
+      "id": "DR041",
+      "type": "motivation",
+      "category": "jummah",
+      "title": "A Friday Reminder",
+      "message": "Step away from the week's distractions and make time today to remember Allah."
+    },
+    {
+      "id": "DR042",
+      "type": "motivation",
+      "category": "general",
+      "title": "Keep the Connection Alive",
+      "message": "Pray your Salah. Read the Quran. Make Dua. Keep your connection with Allah alive."
+    },
+    {
+      "id": "DR043",
+      "type": "motivation",
+      "category": "general",
+      "title": "Three Beautiful Habits",
+      "message": "Namaz for your soul. Quran for your guidance. Dua from your heart."
+    },
+    {
+      "id": "DR044",
+      "type": "motivation",
+      "category": "general",
+      "title": "A Few Minutes for Allah",
+      "message": "Among everything you have planned today, keep some time for Salah, Quran, and Dua."
+    },
+    {
+      "id": "DR045",
+      "type": "motivation",
+      "category": "general",
+      "title": "Reconnect",
+      "message": "Feeling distracted? Pause, remember Allah, and begin again."
+    },
+    {
+      "id": "DR046",
+      "type": "motivation",
+      "category": "general",
+      "title": "Start With Bismillah",
+      "message": "Begin with Bismillah, move with good intention, and end with Alhamdulillah."
+    },
+    {
+      "id": "DR047",
+      "type": "motivation",
+      "category": "general",
+      "title": "Small Steps",
+      "message": "One prayer on time. One page of Quran. One sincere Dua. Keep moving forward."
+    },
+    {
+      "id": "DR048",
+      "type": "motivation",
+      "category": "general",
+      "title": "Make Today Meaningful",
+      "message": "Give a little time today to worship, reflection, kindness, and gratitude."
+    },
+    {
+      "id": "DR049",
+      "type": "motivation",
+      "category": "general",
+      "title": "Protect Your Connection",
+      "message": "Don't let a busy life leave your heart too busy to remember Allah."
+    },
+    {
+      "id": "DR050",
+      "type": "motivation",
+      "category": "general",
+      "title": "End the Day Well",
+      "message": "Before you sleep, remember Allah, seek forgiveness, and make Dua for tomorrow."
+    }
+  ]
+}
